@@ -1,0 +1,23 @@
+1 - Copiar a pasta node no drive c:
+2 - Abrir o VSCode
+3- abrir powershell
+
+    npx create-expo-app --template
+    default
+
+4- abrir android studio/ abrir emulador
+5 - voltar pro powershell e colocar 
+
+    npm run android
+
+6 - descompactar pasta node do drive na pasta download
+7 - passar arquivo descompactado pro disco local
+8 - voltar pro powershell e colocar 
+
+    $env:Path = "C:\node;" + $env:Path
+    npx.cmd expo start --android
+
+OBS: Todos os comandos do vscode são exexecutado no powershell do mesmo
+
+9 - abrir pasta no vscode
+   ir no disco local > usuario > user > nome do projeto
